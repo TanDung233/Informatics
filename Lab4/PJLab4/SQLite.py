@@ -12,7 +12,7 @@ def create_connection(path):
     return connection
 
 # Подключаемся к базе данных
-connection = create_connection(r"E:\LAB\Informatics\Lab4\Lab4\library.sqlite")
+connection = create_connection(r"E:\LAB\Informatics\Lab4\table\library.sqlite")
 
 # Создать таблицы
 def execute_query(connection, query):
